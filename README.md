@@ -59,7 +59,6 @@ ___Partie 2 : Description des scénarios.___
 - Scénarios alternatifs :
 <ul>
    <li>Scénario alternatif SA1:</li>
-   <li>
       <ul>
       <li>Le code est erroné pour la première ou la deuxième fois.</li>
       <li>SA1 commence au point 5 du scénario nominale.</li>
@@ -67,19 +66,29 @@ ___Partie 2 : Description des scénarios.___
       <li>Le DAB enregistre l’échec.</li>
       <li>Le scénario reprend au point 3 du scénario nominal.</li>
      </ul>
-   </li>
  </ul>
-• Scénario alternatif SA2: 
-    Le montant demandé est trop élevé.
-    SA2 commence au point 10 du scénario nominale.
-    Le DAB affiche le montant max et demande au Porteur de carte de ressaisir un montant.
-    Le scénario reprend au point 9 du scénario nominal.
-• Scénario alternatif SA3: 
-    Le ticket est refusé.
-    SA1 commence au point 13 du scénario nominale.
-    14. L’utilisateur refuse le ticket.
-    15. Le DAB délivre les billets.
-    16. L’utilisateur prend les billets.
+ 
+ <ul>
+   <li>Scénario alternatif SA2: </li>
+    <ul>
+    <li>Le montant demandé est trop élevé.</li>
+    <li>SA2 commence au point 10 du scénario nominale.</li>
+    <li>Le DAB affiche le montant max et demande au Porteur de carte de ressaisir un montant.</li>
+    <li>Le scénario reprend au point 9 du scénario nominal.</li>
+     </ul>
+ </ul>
+ 
+<ul>
+   <li>Scénario alternatif SA3: </li>
+   <ul>
+    <li>Le ticket est refusé.</li></li>
+    <li>SA1 commence au point 13 du scé</li>nario nominale.</li>
+    <li>14. L’utilisateur refuse le ticket.</li>
+    <li>15. Le DAB délivre les billets.</li>
+    <li>16. L’utilisateur prend les billets.</li>
+     </ul>
+ </ul>
+ 
 • Scénario alternatif SA4: Le porteur de carte est client de la banque.
 SA1 commence au point 7 du scénario nominale.
 Le DAB demande une autorisation auprès du Système d’Information de la banque.
