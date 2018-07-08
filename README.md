@@ -15,6 +15,6 @@ Consulter ses soldes et Effectuer un virement).
 - Le DAB permet à son utilisateur d’imprimer un reçu s’il le désire.
 - L’expert métier précise que le DAB sera situé dans une zone internationale et devra donc pouvoir fournir la somme d’argent en Dollars ou en Euros.
 
-Correction :
+__Correction :__
 
 ![img](https://github.com/toufik17/umlexercices/blob/master/dab.JPG)
