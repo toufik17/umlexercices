@@ -20,16 +20,15 @@ __Correction :__
 ![img](https://github.com/toufik17/umlexercices/blob/master/dab.JPG)
 
 __Exemple de description textuelle : Le cas d‘utilisation ‘Retirer de l’argent’ du DAB.__
-Partie 1 : Description.
+___Partie 1 : Description.___
 - Titre : Retirer de l’argent.
 - Résumé : Ce cas d’utilisation permet aux possesseurs de carte bancaire de retire de l’argent.
 - Acteur principale : Un porteur de carte bancaire.
-- Acteurs secondaires : Le Système d’Information de la banque et le Système d’Autorisation
-Globale Carte Bancaire.
-- Date : 11/01/2013
-- Responsable : E. REMY
+- Acteurs secondaires : Le Système d’Information de la banque et le Système d’Autorisation Globale Carte Bancaire.
+- Date : 08/07/2018
+- Responsable : E. Dupon
 - Version : 1.0
-Partie 2 : Description des scénarios.
+___Partie 2 : Description des scénarios.___
 - Pré-conditions :
 - Le DAB contient des billets.
 - Les connexions avec le Système d’Autorisation et le Système d’information de la banque sont
@@ -93,6 +92,6 @@ Le DAB éjecte la carte et met fin au cas.
 - Post-conditions:
 Les détails de la transaction doivent être enregistrés (montant, numéro carte, date…) aussi bien
 en cas de succès que d’échec.
-Partie 3 : Exigences non fonctionnelles
+___Partie 3 : Exigences non fonctionnelles___
 La saisie du code confidentiel ne doit pas faire apparaître le code à l’écran.
 Le compte du client ne doit pas être débité tant que le billets n’ont pas été distribués.
