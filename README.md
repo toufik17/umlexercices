@@ -57,12 +57,18 @@ ___Partie 2 : Description des scénarios.___
    <li>Le Porteur de carte prends les billets et le ticket.</li>
 </ol>
 - Scénarios alternatifs :
-• Scénario alternatif SA1: 
-    Le code est erroné pour la première ou la deuxième fois.
-    SA1 commence au point 5 du scénario nominale.
-    Le DAB indique que le code est erroné.
-    Le DAB enregistre l’échec.
-    Le scénario reprend au point 3 du scénario nominal.
+<ul>
+   <li>Scénario alternatif SA1:</li>
+   <li>
+      <ul>
+      <li>Le code est erroné pour la première ou la deuxième fois.</li>
+      <li>SA1 commence au point 5 du scénario nominale.</li>
+      <li>Le DAB indique que le code est erroné.</li>
+      <li>Le DAB enregistre l’échec.</li>
+      <li>Le scénario reprend au point 3 du scénario nominal.</li>
+     </ul>
+   </li>
+ </ul>
 • Scénario alternatif SA2: 
     Le montant demandé est trop élevé.
     SA2 commence au point 10 du scénario nominale.
