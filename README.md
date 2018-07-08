@@ -38,24 +38,24 @@ ___Partie 2 : Description des scénarios.___
 - Les connexions avec le Système d’Autorisation et le Système d’information de la banque sontopérationnelles.
 
 - Scénario nominale :
-
-   1. Le Porteur de carte introduit sa carte dans le DAB.
-   2. Le DAB vérifie que la carte introduite est bien une carte bancaire.
-   3. Le DAB demande le code de la carte au Porteur de carte.
-   4. Le Porteur de carte saisit son code.
-   5. Le DAB compare ce code avec celui qui est codé sur la carte.
-   6. Le DAB demande une autorisation au Système Globale d’autorisation.
-   7. Le Système d’Autorisation globale donne son accord et indique le crédit hebdomadaire.
-   8. Le DAB demande le montant désiré au Porteur de carte.
-   9. Le Porteur de carte saisit le montant.
-   10. Le DAB vérifie si le montant demandé est inférieur ou égale au crédit hebdomadaire.
-   11. Le DAB rend la carte et demande au Porteur de carte de la retirer.
-   12. Le Porteur de carte reprend sa carte.
-   13. Le DAB demande au Porteur de carte s’il désire un ticket.
-   14. Le Porteur de carte accepte le ticket.
-   15. Le DAB délivre le ticket et les billets.
-   16. Le Porteur de carte prends les billets et le ticket.
-
+<ol>
+   <li>Le Porteur de carte introduit sa carte dans le DAB.</li>
+   <li>Le DAB vérifie que la carte introduite est bien une carte bancaire.</li>
+   <li>Le DAB demande le code de la carte au Porteur de carte.</li>
+   <li>Le Porteur de carte saisit son code.</li>
+   <li>Le DAB compare ce code avec celui qui est codé sur la carte.</li>
+   <li>Le DAB demande une autorisation au Système Globale d’autorisation.</li>
+   <li>Le Système d’Autorisation globale donne son accord et indique le crédit hebdomadaire.</li>
+   <li>Le DAB demande le montant désiré au Porteur de carte.</li>
+   <li>Le Porteur de carte saisit le montant.</li>
+   <li>Le DAB vérifie si le montant demandé est inférieur ou égale au crédit hebdomadaire.</li>
+   <li>Le DAB rend la carte et demande au Porteur de carte de la retirer.</li>
+   <li>Le Porteur de carte reprend sa carte.</li>
+   <li>Le DAB demande au Porteur de carte s’il désire un ticket.</li>
+   <li>Le Porteur de carte accepte le ticket.</li>
+   <li>Le DAB délivre le ticket et les billets.</li>
+   <li>Le Porteur de carte prends les billets et le ticket.</li>
+</ol>
 - Scénarios alternatifs :
 • Scénario alternatif SA1: 
     Le code est erroné pour la première ou la deuxième fois.
