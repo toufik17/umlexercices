@@ -20,7 +20,9 @@ __Correction :__
 ![img](https://github.com/toufik17/umlexercices/blob/master/dab.JPG)
 
 __Exemple de description textuelle : Le cas d‘utilisation ‘Retirer de l’argent’ du DAB.__
+
 ___Partie 1 : Description.___
+
 - Titre : Retirer de l’argent.
 - Résumé : Ce cas d’utilisation permet aux possesseurs de carte bancaire de retire de l’argent.
 - Acteur principale : Un porteur de carte bancaire.
@@ -28,31 +30,34 @@ ___Partie 1 : Description.___
 - Date : 08/07/2018
 - Responsable : E. Dupon
 - Version : 1.0
+
 ___Partie 2 : Description des scénarios.___
+
 - Pré-conditions :
 - Le DAB contient des billets.
-- Les connexions avec le Système d’Autorisation et le Système d’information de la banque sont
-opérationnelles.
+- Les connexions avec le Système d’Autorisation et le Système d’information de la banque sontopérationnelles.
+
 - Scénario nominale :
-1) Le Porteur de carte introduit sa carte dans le DAB.
-2) Le DAB vérifie que la carte introduite est bien une carte bancaire.
-3) Le DAB demande le code de la carte au Porteur de carte.
-4) Le Porteur de carte saisit son code.
-5) Le DAB compare ce code avec celui qui est codé sur la carte.
-6) Le DAB demande une autorisation au Système Globale d’autorisation.
-7) Le Système d’Autorisation globale donne son accord et indique le crédit hebdomadaire.
-8) Le DAB demande le montant désiré au Porteur de carte.
-9) Le Porteur de carte saisit le montant.
-10) Le DAB vérifie si le montant demandé est inférieur ou égale au crédit hebdomadaire.
-11) Le DAB rend la carte et demande au Porteur de carte de la retirer.
-12) Le Porteur de carte reprend sa carte.
-13) Le DAB demande au Porteur de carte s’il désire un ticket.
-14) Le Porteur de carte accepte le ticket.
-15) Le DAB délivre le ticket et les billets.
-16) Le Porteur de carte prends les billets et le ticket.
-6/9
+
+    1) Le Porteur de carte introduit sa carte dans le DAB.
+    2) Le DAB vérifie que la carte introduite est bien une carte bancaire.
+    3) Le DAB demande le code de la carte au Porteur de carte.
+    4) Le Porteur de carte saisit son code.
+    5) Le DAB compare ce code avec celui qui est codé sur la carte.
+    6) Le DAB demande une autorisation au Système Globale d’autorisation.
+    7) Le Système d’Autorisation globale donne son accord et indique le crédit hebdomadaire.
+    8) Le DAB demande le montant désiré au Porteur de carte.
+    9) Le Porteur de carte saisit le montant.
+    10) Le DAB vérifie si le montant demandé est inférieur ou égale au crédit hebdomadaire.
+    11) Le DAB rend la carte et demande au Porteur de carte de la retirer.
+    12) Le Porteur de carte reprend sa carte.
+    13) Le DAB demande au Porteur de carte s’il désire un ticket.
+    14) Le Porteur de carte accepte le ticket.
+    15) Le DAB délivre le ticket et les billets.
+    16) Le Porteur de carte prends les billets et le ticket.
+
 - Scénarios alternatifs :
-• Scénario alternatif SA1: Le code est erroné pour la première ou la deuxième fois.
+• Scénario alternatif SA1: Le code est erroné pour la première ou la deuxième fois. 
 SA1 commence au point 5 du scénario nominale.
 Le DAB indique que le code est erroné.
 Le DAB enregistre l’échec.
