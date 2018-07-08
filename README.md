@@ -89,32 +89,40 @@ ___Partie 2 : Description des scénarios.___
      </ul>
  </ul>
  
-• Scénario alternatif SA4: Le porteur de carte est client de la banque.
-SA1 commence au point 7 du scénario nominale.
-Le DAB demande une autorisation auprès du Système d’Information de la banque.
-Le scénario reprend au point 9 du scénario nominal.
-- Scénarios d’exception:
-• Scénario d’exception SE1: Carte non valide.
-SE1 commence au point 2 du scénario nominal.
-Le DAB Indique que la carte n’est pas valide restitue la carte et met fin au cas.
-• Scénario d’exception SE2: Le code est erroné pour la troisième fois.
-SE2 commence au point 5 du scénario nominal.
-Le DAB Indique que le code est erroné pour la troisième fois, confisque la carte et met fin au cas.
-• Scénario d’exception SE3: Retrait non autorisé.
-SE3 commence au point 6 du scénario nominal.
-Le DAB Indique que tout retrait est impossible, restitue la carte et met fin au cas.
-• Scénario d’exception SE4: Carte non reprise.
-SE4 commence au point 11 du scénario nominal.
-Au bout de 30s, le DAB confisque la carte et met fin au cas.
-• Scénario d’exception SE5: Billets non pris.
-SE5 commence au point 15 du scénario nominal.
-Au bout de 30s, le DAB reprend les billets et met fin au cas.
-• Scénario d’exception SE6: Annulation de la transaction.
-SE6 peut démarrer entre les points 4 et 9 du scénario nominal.
-Le DAB éjecte la carte et met fin au cas.
+ <ul>
+   <li>Scénario alternatif SA4:</li>
+   <ul>
+      <li>Le porteur de carte est client de la banque.</li>
+      <li>SA1 commence au point 7 du scénario nominale.</li>
+      <i>Le DAB demande une autorisation auprès du Système d’Information de la banque.</li>
+      <li>Le scénario reprend au point 9 du scénario nominal.</li>
+   </ul>
+   </ul>
+   
+-  Scénarios d’exception:
+
+• Scénario d’exception SE1: Carte non valide.</br>
+SE1 commence au point 2 du scénario nominal.</br>
+Le DAB Indique que la carte n’est pas valide restitue la carte et met fin au cas.</br>
+• Scénario d’exception SE2: Le code est erroné pour la troisième fois.</br>
+SE2 commence au point 5 du scénario nominal.</br>
+Le DAB Indique que le code est erroné pour la troisième fois, confisque la carte et met fin au cas.</br>
+• Scénario d’exception SE3: Retrait non autorisé.</br>
+SE3 commence au point 6 du scénario nominal.</br>
+Le DAB Indique que tout retrait est impossible, restitue la carte et met fin au cas.</br>
+• Scénario d’exception SE4: Carte non reprise.</br>
+SE4 commence au point 11 du scénario nominal.</br>
+Au bout de 30s, le DAB confisque la carte et met fin au cas.</br>
+• Scénario d’exception SE5: Billets non pris.</br>
+SE5 commence au point 15 du scénario nominal.</br>
+Au bout de 30s, le DAB reprend les billets et met fin au cas.</br>
+• Scénario d’exception SE6: Annulation de la transaction.</br>
+SE6 peut démarrer entre les points 4 et 9 du scénario nominal.</br>
+Le DAB éjecte la carte et met fin au cas.</br>
+
 - Post-conditions:
-Les détails de la transaction doivent être enregistrés (montant, numéro carte, date…) aussi bien
-en cas de succès que d’échec.
+
+Les détails de la transaction doivent être enregistrés (montant, numéro carte, date…) aussi bien en cas de succès que d’échec.
 
 ___Partie 3 : Exigences non fonctionnelles___
 
