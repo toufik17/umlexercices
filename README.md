@@ -39,38 +39,41 @@ ___Partie 2 : Description des scénarios.___
 
 - Scénario nominale :
 
-    1) Le Porteur de carte introduit sa carte dans le DAB.
-    2) Le DAB vérifie que la carte introduite est bien une carte bancaire.
-    3) Le DAB demande le code de la carte au Porteur de carte.
-    4) Le Porteur de carte saisit son code.
-    5) Le DAB compare ce code avec celui qui est codé sur la carte.
-    6) Le DAB demande une autorisation au Système Globale d’autorisation.
-    7) Le Système d’Autorisation globale donne son accord et indique le crédit hebdomadaire.
-    8) Le DAB demande le montant désiré au Porteur de carte.
-    9) Le Porteur de carte saisit le montant.
-    10) Le DAB vérifie si le montant demandé est inférieur ou égale au crédit hebdomadaire.
-    11) Le DAB rend la carte et demande au Porteur de carte de la retirer.
-    12) Le Porteur de carte reprend sa carte.
-    13) Le DAB demande au Porteur de carte s’il désire un ticket.
-    14) Le Porteur de carte accepte le ticket.
-    15) Le DAB délivre le ticket et les billets.
-    16) Le Porteur de carte prends les billets et le ticket.
+   1. Le Porteur de carte introduit sa carte dans le DAB.
+   2. Le DAB vérifie que la carte introduite est bien une carte bancaire.
+   3. Le DAB demande le code de la carte au Porteur de carte.
+   4. Le Porteur de carte saisit son code.
+   5. Le DAB compare ce code avec celui qui est codé sur la carte.
+   6. Le DAB demande une autorisation au Système Globale d’autorisation.
+   7. Le Système d’Autorisation globale donne son accord et indique le crédit hebdomadaire.
+   8. Le DAB demande le montant désiré au Porteur de carte.
+   9. Le Porteur de carte saisit le montant.
+   10. Le DAB vérifie si le montant demandé est inférieur ou égale au crédit hebdomadaire.
+   11. Le DAB rend la carte et demande au Porteur de carte de la retirer.
+   12. Le Porteur de carte reprend sa carte.
+   13. Le DAB demande au Porteur de carte s’il désire un ticket.
+   14. Le Porteur de carte accepte le ticket.
+   15. Le DAB délivre le ticket et les billets.
+   16. Le Porteur de carte prends les billets et le ticket.
 
 - Scénarios alternatifs :
-• Scénario alternatif SA1: Le code est erroné pour la première ou la deuxième fois. 
-SA1 commence au point 5 du scénario nominale.
-Le DAB indique que le code est erroné.
-Le DAB enregistre l’échec.
-Le scénario reprend au point 3 du scénario nominal.
-• Scénario alternatif SA2: Le montant demandé est trop élevé.
-SA2 commence au point 10 du scénario nominale.
-Le DAB affiche le montant max et demande au Porteur de carte de ressaisir un montant.
-Le scénario reprend au point 9 du scénario nominal.
-• Scénario alternatif SA3: Le ticket est refusé.
-SA1 commence au point 13 du scénario nominale.
-14) L’utilisateur refuse le ticket.
-15) Le DAB délivre les billets.
-16) L’utilisateur prend les billets.
+• Scénario alternatif SA1: 
+    Le code est erroné pour la première ou la deuxième fois.
+    SA1 commence au point 5 du scénario nominale.
+    Le DAB indique que le code est erroné.
+    Le DAB enregistre l’échec.
+    Le scénario reprend au point 3 du scénario nominal.
+• Scénario alternatif SA2: 
+    Le montant demandé est trop élevé.
+    SA2 commence au point 10 du scénario nominale.
+    Le DAB affiche le montant max et demande au Porteur de carte de ressaisir un montant.
+    Le scénario reprend au point 9 du scénario nominal.
+• Scénario alternatif SA3: 
+    Le ticket est refusé.
+    SA1 commence au point 13 du scénario nominale.
+    14. L’utilisateur refuse le ticket.
+    15. Le DAB délivre les billets.
+    16. L’utilisateur prend les billets.
 • Scénario alternatif SA4: Le porteur de carte est client de la banque.
 SA1 commence au point 7 du scénario nominale.
 Le DAB demande une autorisation auprès du Système d’Information de la banque.
@@ -97,6 +100,8 @@ Le DAB éjecte la carte et met fin au cas.
 - Post-conditions:
 Les détails de la transaction doivent être enregistrés (montant, numéro carte, date…) aussi bien
 en cas de succès que d’échec.
+
 ___Partie 3 : Exigences non fonctionnelles___
+
 La saisie du code confidentiel ne doit pas faire apparaître le code à l’écran.
 Le compte du client ne doit pas être débité tant que le billets n’ont pas été distribués.
